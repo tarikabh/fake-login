@@ -1,0 +1,16 @@
+{
+  "name": "fake-login",
+  "version": "1.0.0",
+  "description": "Fake login",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tarik Demirovic",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "body-parser": "^1.18.2"
+  }
+}
