@@ -29,5 +29,9 @@ app.post('/', function(req, res) {
   }
 });
 
+app.get('/', function(req, res) {
+  res.send("shorts");
+})
+
 let port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`App listening on port ${port}!`))
